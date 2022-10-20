@@ -1,0 +1,115 @@
+/*this allows us to style all elements in the body section*/
+body { /*this is our opening scope operator*/
+    /*this sets the background to repeatedly display black grey and white in a circular pattern*/
+    background-image: repeating-radial-gradient(black , grey 10% , white 10%);
+    /*this aligns our text to the center*/
+    text-align: center;
+} /*this is our closing scope operator*/
+/*this allows us to style all elements in the h1 tag*/
+h1 { /*this is our opening scope operator*/
+    /*this sets the type of font in the h1 tag*/
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /*this sets the color of the text*/
+    color: white;
+    /*this sets the size of the font*/
+    font-size: 40px;
+    /*this aligns the text to the center*/
+    text-align: center;
+} /*this is our closing scope operator*/
+/*this allows us to style the img with the class "A"*/
+img.A { /*this is our opening scope operator*/
+    /*this aligns the image to the center*/
+    align-self: center;
+    /*this sets the margin at the bottom of the image*/
+    /*using a negative number reduces the size*/
+    margin-bottom: -1.5%;
+} /*this is our closing scope operator*/
+/*this allows us to style all elements in the table, th, and td tags*/
+table , th , td { /*this is our opening scope operator*/
+    /*this sets the color of the text to white*/
+    color: white;
+    /*this makes the background transparent*/
+    background-color: transparent;
+    /*this aligns the text to the left side of the table*/
+    text-align: left;
+    /*this sets the color of a solid border*/
+    border: solid white;
+    /*this sets the size of the text to larger*/
+    font-size: larger;
+} /*this is our closing scope operator*/
+/*this allows us to style all elements in the th section*/
+th { /*this is our opening scope operator*/
+    /*this sets the type of font the text will be in*/
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /*this sets the font size to extra extra large*/
+    font-size: xx-large;
+} /*this is our closing scope operator*/
+/*this allows us to style elements in our paragraph*/
+p { /*this is our opening scope operator*/
+    /*this aligns our text to the left side of the page*/
+    text-align: left;
+} /*this is our closing scope operator*/
+/*this allows us to style elements in our b1 section*/
+.b1 { /*this is our opening scope operator*/
+    /*this sets the size of our margin x:y*/
+    margin: 4px 2px;
+    /*this sets the space within the margin*/
+    padding: 10px 30px;
+    /*this removes the border*/
+    border: none;
+    /*this sets the color of the background inside the b1 elemet*/
+    background-color: white;
+    /*this sets the text color to black*/
+    color: black;
+    /*this turns your cursor into a pointer when hovering over the button*/
+    cursor: pointer;
+    /*this sets the size of the outer border edge*/
+    border-radius: 40px;
+    /*this changes the font size to extra large*/
+    font-size: x-large;
+    /*this changes the font type of the text*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} /*this is our closing scope operator*/
+/*this allows us to edit elements in the b2 section*/
+.b2 { /*this is our opening scope operator*/
+    /*this sets the size of our margin x:y*/
+    margin: 4px 2px;
+    /*this sets the space within the margin*/
+    padding: 10px 30px;
+    /*this removes the border*/
+    border: none;
+    /*this sets the color of the background inside the b1 elemet*/
+    background-color: white;
+    /*this sets the text color to black*/
+    color: black;
+    /*this turns your cursor into a pointer when hovering over the button*/
+    cursor: pointer;
+    /*this sets the size of the outer border edge*/
+    border-radius: 40px;
+    /*this changes the font size to extra large*/
+    font-size: x-large;
+    /*this changes the font type of the text*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} /*this is our closing scope operator*/
+/*this allows us to style the elements in the b1 class during hovering*/
+.b1:hover { /*this is our opening scope operator*/
+    /*this sets the background color*/
+    background-color: black;
+    /*this sets the size of the outer border edge*/
+    border-radius: 40px;
+    /*this takes away the border*/
+    border: none;
+    /*this sets the font color*/
+    color: white;
+}/*this sets the font color*/
+/*this allows us to style the elements in the b2 class during hovering*/
+.b2:hover { /*this is our opening scope operator*/
+    /*this sets the background color*/
+    background-color: black;
+    /*this sets the size of the outer border edge*/
+    border-radius: 40px;
+    /*this takes away the border*/
+    border: none;
+    /*this sets the font color*/
+    color: white;
+}/*this sets the font color*/
